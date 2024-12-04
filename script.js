@@ -57,7 +57,7 @@ const contentData = {
   hobbies: `
     <div class="hobbies container">
       <div class="hobby-top">
-        <h1 class="section-title">sk<span>i</span>lls</h1>
+        <h1 class="section-title">ho<span>b</span>bies</h1>
       </div>
       <div class="hobby-bottom">
         <div class="hobby-item">
