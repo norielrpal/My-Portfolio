@@ -10,6 +10,45 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Starting Screen Section */
+#start-screen {
+  height: 100vh;
+  background: linear-gradient(to bottom, #000428, #004e92);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-screen .start-content {
+  text-align: center;
+  color: #fff;
+}
+
+.start-screen .start-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.start-screen .cta-start {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  background: #ff6f61;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.start-screen .cta-start:hover {
+  background: #ff3d2e;
+  transform: scale(1.1);
+}
+
 body {
   /* Friday Gradient */
   background: #83a4d4, #b6fbff;
